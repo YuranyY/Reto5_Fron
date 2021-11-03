@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Front Reto5</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Este es un documento HTML5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="misestilos.css">
+    <script type="text/javascript" src="js/misFuncionesMensajes.js"></script>
+</head>
+
+<body>
+    <header id="cabeceralogo">
+        <div>
+            <center><h1>Mensajes </h1></center>
+        </div>
+    </header>
+    <nav id="menuprincipal">
+        <div>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="Reportes.html">Reportes</a></li>
+                <li><a href="Categorias.html">Categorias</a></li>
+                <li><a href="Clientes.html">Clientes</a></li>
+                <li><a href="Mensajes.html">Mensajes</a></li>
+                <li><a href="Reservaciones.html">Reservaciones</a></li>
+                <li><a href="Fincas.html">Fincas</a></li>
+            </ul>
+        </div>
+    </nav>
+<center><b>        <header id="cabecerares">
+    <div id="resultadoMensajes"></div><br>
+    <script type="text/javascript">
+        window.onload = autoInicioMensajes();
+    </script>
+    <input type="text" id="messagetext" placeholder="mensaje">
+    <br><br>
+    <button onclick="guardarInformacionMensajes()">Guardar Mensajes</button>
+    <br><br>
+    <button onclick="autoInicioMensajes()">Consultar Mensajes</button>
+    <br><br></b>
+    <select id="select-client"></select>
+    
+    <script type="text/javascript">
+        window.onload = autoInicioRelacionCliente();
+    </script>
+    <select id="select-farm"></select></center>
+    <script type="text/javascript">
+        window.onload = autoInicioFarm();
+    </script></header>
+</body>
+
+</html>
